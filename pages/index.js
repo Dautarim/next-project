@@ -6,6 +6,7 @@ function display()
     return <div>
         <h1>Olá mundo!!</h1> 
         <Contadors/>
+        <CreatImag/>
     </div>
     
 }
@@ -27,6 +28,15 @@ function Contadors()
         <button onClick={adicionar}>ADD</button>
         <button onClick={zerar}>Zerar</button>
 
+    </div>
+}
+
+function CreatImag()
+{
+    const imgLink = "https://images3.alphacoders.com/109/1091675.jpg"
+    
+    return <div>
+       <img src={imgLink} />
     </div>
 }
 
