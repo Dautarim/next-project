@@ -4,7 +4,7 @@ function display()
 {
 
     return <div>
-        <h1>Olá mundo!!</h1> 
+        <h1>Olá mundo!! versao 2</h1> 
         <Contadors/>
         <CreatImag/>
     </div>
