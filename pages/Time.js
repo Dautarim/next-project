@@ -28,7 +28,7 @@ export function getstaticProps()
         return {
                 props: {
                         staticDataString
-                }
+                },revalidate: 1
         }
 
 }
