@@ -1,12 +1,17 @@
 import { useState } from "react";
+import Link from "next/link"
 
 function display()
 {
 
     return <div>
         <h1>Olá mundo!! versao 2</h1> 
+            <Link href="/aboutUs">
+                About Us
+            </Link>
         <Contadors/>
         <CreatImag/>
+
     </div>
     
 }
@@ -33,7 +38,7 @@ function Contadors()
 
 function CreatImag()
 {
-    const imgLink = "https://images3.alphacoders.com/109/1091675.jpg"
+    const imgLink = "https://i.pinimg.com/564x/ca/bc/6f/cabc6f16d61daa4771517251588bd5a3.jpg"
     
     return <div>
        <img src={imgLink} />
