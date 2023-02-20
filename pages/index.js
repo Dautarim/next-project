@@ -1,10 +1,11 @@
 import { useState } from "react";
 import Link from "next/link"
+import Time from "./Time";
 
 function display()
 {
 
-    return <div>
+    return (<div>
         <h1>Olá mundo!! versao 2</h1> 
             <Link href="/aboutUs">
                 About Us
@@ -12,7 +13,7 @@ function display()
         <Contadors/>
         <CreatImag/>
 
-    </div>
+    </div>)
     
 }
 
