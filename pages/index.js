@@ -11,7 +11,7 @@ function display()
                 About Us
             </Link>
             <Link href="/Time">
-                About Us
+                Time
             </Link>
         <Contadors/>
         <CreatImag/>

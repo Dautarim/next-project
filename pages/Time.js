@@ -11,7 +11,7 @@ function Time(props)
             Home
         </Link>
         <Link href="/aboutUs">
-            Home
+            About
         </Link>
                 <div>{dataString} (dinamico) </div>  
                 <div>{props.staticDataString} (estático) </div>  
