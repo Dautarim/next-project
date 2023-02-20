@@ -9,6 +9,9 @@ function noSobre()
         <Link href="/">
             Home
         </Link>
+        <Link href="/Time">
+            Home
+        </Link>
     </div>)
 }
 

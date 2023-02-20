@@ -1,3 +1,4 @@
+import Link from "next/link"
 
 function Time(props)
 {
@@ -5,11 +6,16 @@ function Time(props)
    const dataString = dinamicTime.toGMTString();
 
    return (
-   <div>
-
-        <div>{dataString} (dinamico) </div>  
-        <div>{props.staticDataString} (estático) </div>  
-   </div>
+        <div>
+        <Link href="/">
+            Home
+        </Link>
+        <Link href="/aboutUs">
+            Home
+        </Link>
+                <div>{dataString} (dinamico) </div>  
+                <div>{props.staticDataString} (estático) </div>  
+        </div>
         
    )
 }

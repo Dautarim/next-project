@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Link from "next/link"
-import Time from "./Time";
+
 
 function display()
 {
@@ -8,6 +8,9 @@ function display()
     return (<div>
         <h1>Olá mundo!! versao 2</h1> 
             <Link href="/aboutUs">
+                About Us
+            </Link>
+            <Link href="/Time">
                 About Us
             </Link>
         <Contadors/>
